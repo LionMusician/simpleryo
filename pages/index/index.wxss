@@ -1,0 +1,23 @@
+/**index.wxss**/
+page{height: 100%;}
+.container{background: linear-gradient(#FAF8FF,#C7E9FF);overflow-y: scroll;}
+.container .top{width: 100%;height: 89rpx;background: #000;display: flex;flex-direction: row;justify-content: center;align-items: center;box-shadow:px 22px 16px rgba(49,11,105,0.23);}
+.container .searchBar{width: 599rpx;height: 52rpx;background: #fff;display: flex;flex-direction: row;justify-content: space-around;align-items: center;border-radius: 5rpx;}
+.container .searchBar image{width: 33rpx;height: 31rpx;margin-left: 16rpx;}
+.container .searchBar input{width: 414rpx;height: 37rpx;background: #535353;min-height: 37rpx;}
+.container .searchBar view{width:65rpx;height:18rpx; font-size:25rpx;color:rgba(0,0,0,1);line-height:18rpx;margin-right: 16rpx;}
+.container .top .message{width: 40rpx;height: 38rpx;margin-left: 30rpx;}
+swiper{width: 750rpx;height: 299rpx;}
+swiper-item{width: 750rpx;height: 299rpx;}
+swiper-item image{width: 100%;height: 100%;}
+.lessonsList{width: 705rpx;margin: 38rpx auto 0;display: grid;grid-template-columns:25% 25% 25% 25%;grid-template-rows:193rpx;}
+.lessonsList .tip{width:109rpx;height: 193rpx;margin: 0 32rpx;display: inline-block;}
+.lessonsList .tip image{width:110rpx;height: 110rpx;}
+.lessonsList .tip text{width:122rpx;font-size:21rpx;color:rgba(89,87,87,1);line-height:27rpx;display: inline-block;text-align: center;}
+.recommendList{margin-bottom: 30rpx;}
+.recommendList .tip{width: 705rpx;height: 782rpx;margin: 28rpx auto 0;background:#fff;border-radius: 20rpx;box-shadow:4rpx 5rpx 6rpx rgba(123,123,123,0.67) }
+.recommendList .tip .title{height: 40rpx;width: 649rpx;margin: 0rpx 25rpx 0rpx 31rpx;border-bottom: 2rpx solid rgba(210,210,210,1);padding: 33rpx 0 17rpx;color: #898787;position: relative;}
+.recommendList .tip .title .intro{font-size: 33rpx;border-bottom: 3rpx solid #FF006C;padding-bottom: 9rpx;display: inline-block;}
+.recommendList .tip .title .more{font-size: 23rpx;position: absolute;right: 20rpx;bottom: 8rpx;}
+.recommendList .tip .bgImg{width:649rpx;height:305rpx;margin:18rpx auto;position: relative;display: block;}
+.recommendList .tip .bgImg .card{background: linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0,.2),rgba(0,0,0,0));position: absolute;width: 100%;height: 100%;top: 0;left: 0;}

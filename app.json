@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/course/course",
+    "pages/my/my"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Simpleryo",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "Home",
+        "iconPath":"pages/imgs/tab/home.png",
+        "selectedIconPath":"pages/imgs/tab/home.png"
+      },
+      {
+        "pagePath": "pages/course/course",
+        "text": "Course",
+        "iconPath": "pages/imgs/tab/course.png",
+        "selectedIconPath": "pages/imgs/tab/course.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "My",
+        "iconPath": "pages/imgs/tab/my.png",
+        "selectedIconPath": "pages/imgs/tab/my.png"
+      }
+    ]
+  }
+}
